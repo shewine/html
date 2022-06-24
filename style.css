@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-
 .main-title {
   font-size: 60px;
   word-spacing: 0px;
@@ -10,16 +9,17 @@
   margin: 60px 60px;
   font-family: "Cedarville Cursive", cursive;
 }
-.story-title{
+.story-title {
   font-style: italic;
   font-size: 30px;
+  margin: 15px;
 }
 
-.row{
-  display:flex;
+.row {
+  display: flex;
   align-items: stretch;
 }
 .story {
-  border : 1px solid #333; 
-  padding : 50px;
+  border: 1px solid #333;
+  padding: 50px;
 }
