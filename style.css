@@ -11,6 +11,7 @@
 }
 .story-title {
   font-style: italic;
+  font-weight: normal;
   font-size: 30px;
   margin: 15px;
 }
