@@ -41,3 +41,44 @@
 .half {
   width: 50%;
 }
+
+.three-quator {
+  width: 75%;
+}
+
+.site-nav {
+  display: flex;
+  align-items:stretch;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: bold;
+  font-family:arial;
+  color: #555;
+}
+
+.nav-items {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  left: padding 25px;
+
+}
+
+.nav-items:nth-child(1) {
+  background-color: aqua;
+}
+.nav-items:nth-child(2) {
+  background-color: red;
+}
+.nav-items:nth-child(3) {
+  background-color: yellow;
+}
+.nav-items:nth-child(4) {
+  background-color: cyan;
+}
+.nav-items:nth-child(5) {
+  background-color: mediumspringgreen;
+}
