@@ -48,13 +48,13 @@
 
 .site-nav {
   display: flex;
-  align-items:stretch;
+  align-items: stretch;
   flex-direction: column;
   margin: 0;
   padding: 0;
   list-style: none;
   font-weight: bold;
-  font-family:arial;
+  font-family: arial;
   color: #555;
 }
 
@@ -64,7 +64,13 @@
   display: flex;
   align-items: center;
   left: padding 25px;
-
+}
+.nav-items a {
+  text-decoration: none;
+  color: #555;
+}
+.nav-items a:hover {
+  text-decoration: underline;
 }
 
 .nav-items:nth-child(1) {
