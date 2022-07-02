@@ -29,7 +29,17 @@
 .row {
   display: flex;
   align-items: stretch;
+  height: 100%;
 }
+
+.col {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0px;
+  margin: 0;
+}
+
 .story {
   border: 1px solid #333;
   padding: 50px;
@@ -52,7 +62,6 @@
   flex-direction: column;
   margin: 0;
   padding: 0;
-  list-style: none;
   font-weight: bold;
   font-family: arial;
   color: #555;
@@ -63,7 +72,7 @@
   flex: 1;
   display: flex;
   align-items: center;
-  left: padding 25px;
+  padding-left: 25px;
 }
 .nav-items a {
   text-decoration: none;
